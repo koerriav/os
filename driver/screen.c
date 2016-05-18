@@ -21,6 +21,7 @@ void print_char ( char character , int col , int row , char attribute _byte ) {
 	offset = handle_scrolling(offset);
 	set_cursor(offset);
 }
+//不可编译
 int get_screen_offset(int col,int row){
 	int offset ;
 	port_byte_out(REG_SCREEN_CTRL,14);
