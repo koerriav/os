@@ -1,2 +1,2 @@
 # os
-x86 operation system
+x86 operating system
